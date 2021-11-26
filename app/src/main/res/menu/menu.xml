@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_DanhSach"
+            android:icon="@drawable/ic_food_24"
+            android:title="Danh Sách Sản Phẩm"/>
+        <item
+            android:id="@+id/nav_GioHang"
+            android:icon="@drawable/ic_giohang_24"
+            android:title="Giỏ Hàng"/>
+        <item
+            android:id="@+id/nav_LichSu"
+            android:icon="@drawable/ic_history_24"
+            android:title="Lịch Sử"/>
+
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/sub_Top"
+                    android:icon="@drawable/ic_top_24"
+                    android:title="Món ăn đặt hàng nhiều nhất" />
+                <item
+                    android:id="@+id/sub_DoanhThu"
+                    android:icon="@drawable/ic_money_24"
+                    android:title="Doanh Thu" />
+            </menu>
+        </item>
+
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/sub_profile"
+                    android:icon="@drawable/ic_person"
+                    android:title="profile"/>
+                <item
+                    android:id="@+id/sub_AddUser"
+                    android:title="Thêm người dùng"
+                    android:icon="@drawable/ic_person_add_24"/>
+                <item
+                    android:id="@+id/sub_Logout"
+                    android:icon="@drawable/ic_input_24"
+                    android:title="Đăng xuất"/>
+            </menu>
+
+        </item>
+    </group>
+</menu>
